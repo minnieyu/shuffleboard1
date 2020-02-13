@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="_thePane" minHeight="256" minWidth="400" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.team2053.FieldObserverPlugin.RobotPoseWidget">
+   <children>
+   	<VBox AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="15">
+         <children>
+            <Label fx:id="_xPos" text="Label" />
+            <Label fx:id="_yPos" text="Label" />
+            <Label fx:id="_heading" text="Label" />
+         </children>
+      </VBox>
+      <Canvas fx:id="_theCanvas" height="287.0" width="579.0" />
+      <Circle fx:id="_robot" fill="#ff8b00" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="_robotHeading" endX="100.0" startX="-100.0" />
+   </children>
+</AnchorPane>
